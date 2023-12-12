@@ -1,0 +1,201 @@
+body{
+    background-image: url(/img/cover.jpg);background-repeat: no-repeat;background-size: 100% 110vh;
+    
+margin-top:0px;
+margin-left:0;
+
+display: flex;
+
+}
+.btn1{
+    display: inline-flex;background-color: transparent;border: none;cursor: pointer;color: #a0a8b3;
+}
+.btn1:hover{
+    color: aqua;
+    
+}
+.form-btn{
+    cursor: pointer; 
+    width: 30%;
+    background-color: #191b1e; 
+
+}
+.form-btn:hover{
+    color: aqua;
+    background-color: #000000; 
+}
+.bar
+{
+    box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    height: 8.5%;
+    width:90%;
+    margin-top: 20px;
+    left: 0;
+     background: linear-gradient(to right bottom, #212428, #16181c);
+    position: fixed;
+    padding: 12px;
+    border-radius: 30px;
+    margin-left: 5vw ;
+    z-index: 10;
+
+}
+.bar .container h1{
+    display: inline-flex;
+    font-size: 50px;
+    color: rgb(168, 160, 135);
+    margin-top: 15px;padding-left: 30px;
+}
+.bar .container .content
+{
+    display: inline-flex;
+    float: right;
+    
+   
+}
+.bar .container .content .btn{
+    margin-right: 50px;
+    text-decoration: none;
+    color: rgb(168, 160, 135);
+    font-size: 30px;
+    cursor: pointer;
+    padding: 0 12px;
+}
+.bar .container .content .btn:hover
+{
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    translate: 0 -20px ;
+    color: crimson;
+}
+
+/* ??????? register */
+#register{
+    display: none;
+}
+.form-container{
+    min-height: 50vh;
+    width: 35%;
+display: none;
+align-items: center;
+justify-content: center;
+padding: 20px;
+padding-bottom: 30px;
+background: linear-gradient(to right bottom, #212428, #16181c);
+border-radius: 50px;
+box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+margin-left: 30%;
+margin-top: 10vh;
+}
+
+
+
+.form-container form{
+    padding: 20px;
+    border-radius: 5px;
+    color: #a0a8b3;
+    border-radius: 50px;
+    box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    text-align: center;
+
+}
+.form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #a0a8b3;
+}
+.form-container form input{
+    width: 80%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    color: #a0a8b3;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    background-color: #191b1e;
+}
+
+.form-container form p{
+    font-size:22px;
+    
+}
+.form-container form a{
+    text-decoration: none;
+    
+}
+
+
+
+/* ?????? Login */
+.form-containerlogi{
+    min-height: 30vh;
+    width: 22.5%;
+display: none;
+align-items: center;
+justify-content: center;
+padding: 20px;
+padding-bottom: 30px;
+background: linear-gradient(to right bottom, #212428, #16181c);
+border-radius: 50px;
+box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+margin-left: 37%;
+margin-top: 10vh;
+
+}
+.form-containerlogi form{
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    border-radius: 50px;
+    box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    text-align: center;
+    color: #a0a8b3;
+
+}
+.form-containerlogi form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #a0a8b3;
+}
+.form-containerlogi form input{
+    width: 80%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    color: #a0a8b3;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow:  4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+background-color: #16181c;
+}
+.form-containerlogi form a{
+   
+    text-decoration: none;
+    font-size: 22px;
+}
+.form-containerlogi form p{
+    font-size:22px;
+    
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-input {
+    padding-right: 30px; /* Adjust the padding to leave space for the eye image */
+}
+
+#password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px; /* Set the width of the eye image */
+    height: 20px; /* Set the height of the eye image */
+}
+

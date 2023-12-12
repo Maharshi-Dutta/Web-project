@@ -1,0 +1,473 @@
+
+
+
+
+    .card p{
+      margin-top:10vh ;
+      color: aliceblue;
+      display: inline-flex;
+      margin-left: 20vh;
+      font-size: 30px;
+    }
+    #red{
+      position: absolute;
+      display: flex;
+      z-index: 1;
+      margin-left: 20vh;
+      padding: 20px;
+      border-radius: 100px;
+      background-color: rgb(254, 0, 0);
+      box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+      cursor: pointer;
+    }
+    #green{
+      position: absolute;
+      display: flex;
+      z-index: 1;
+      margin-left: 30vh;
+      padding: 20px;
+      border-radius: 100px;
+      background-color: green;
+      cursor: pointer;
+      box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    }
+    #blue{
+      position: absolute;
+      display: flex;
+      z-index: 1;
+      margin-left: 40vh;
+      padding: 20px;
+      border-radius: 100px;
+      background-image: linear-gradient(45deg,white,blue,red);
+      cursor: pointer;
+      box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    }
+    
+    
+    /* 2 card */
+    .bikeimgl{
+        background-image: url(/img/Kawasaki/23ZR1000L_R_40RGY2DLS3CG_A-removebg-preview.png);
+     width: 30%;
+      height: 100%;
+      z-index: 1;
+      background-size: contain;
+      background-repeat: no-repeat;
+      float: right;
+      transition: 0.5s;
+    }
+    .card2{
+      height: 40vh;
+      width: 80%;
+      background-color: rgb(23, 23, 23);
+      position: relative;
+      border-radius: 50px;
+      margin: 40px 0;transition: 0.5s;
+      background-image: linear-gradient(45deg,white,rgb(0, 0, 0),rgb(38, 255, 0));box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    }
+    .card2 p{
+      margin-top:10vh ;
+      color: aliceblue;
+      display: inline-flex;
+      margin-left: 20vh;
+      font-size: 30px;
+    }
+    #redR{
+      position: absolute;
+      display: flex;
+      z-index: 1;
+      margin-left: 20vh;
+      padding: 20px;
+      border-radius: 100px;
+      background-image: linear-gradient(45deg,rgb(0, 0, 0),black,red);
+      cursor: pointer;
+      box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    }
+    #silverR{
+      position: absolute;
+      display: flex;
+      z-index: 1;
+      margin-left: 30vh;
+      padding: 20px;
+      border-radius: 100px;
+      background-color: silver;
+      cursor: pointer;
+      box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    }
+    #whiteR{
+      position: absolute;
+      display: flex;
+      z-index: 1;
+      margin-left: 40vh;
+      padding: 20px;
+      border-radius: 100px;
+     background-color: white;
+      cursor: pointer;
+      box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    }
+    /* 3 card */
+    .card3{
+      height: 40vh;
+      width: 80%;
+      background-color: rgb(23, 23, 23);
+      position: relative;
+      border-radius: 50px;
+      transition: 0.5s;
+      margin: 40px 0;box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+      background-image: linear-gradient(45deg,white,rgb(0, 0, 0),rgb(25, 212, 0));
+    }
+    
+    .bikeimgr3{
+      background-image: url(/img/Kawasaki/Myproject.png);
+     width: 30%;
+      height: 90%;
+      z-index: 1;
+      background-size: contain;
+      background-repeat: no-repeat;
+      float: right;
+      position: relative;
+      transition: 0.5s;
+      margin-top: 5vh;
+      transform: scaleX(-1);
+      display: flex;
+      justify-content: right;
+      align-items: center;
+    }
+    .card3 p{
+      margin-top:10vh ;
+      color: aliceblue;
+      display: inline-flex;
+      margin-left: 20vh;
+      font-size: 30px;
+    }
+    #whiteM{
+      position: absolute;
+      display: flex;
+      z-index: 1;
+      margin-left: 40vh;
+      padding: 20px;
+      border-radius: 100px;
+    background-image: linear-gradient(white,rgb(0, 0, 0));
+      cursor: pointer;
+      box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    }
+    #red{
+      position: absolute;
+      display: flex;
+      z-index: 1;
+      margin-left: 30vh;
+      padding: 20px;
+      border-radius: 100px;
+    background-image: linear-gradient(rgb(236, 0, 0),black);
+      cursor: pointer;
+      box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    }
+    #blackBM{
+      position: absolute;
+      display: flex;
+      z-index: 1;
+      margin-left: 20vh;
+      padding: 20px;
+      border-radius: 100px;
+    background-image: linear-gradient(rgb(42, 42, 42),black);
+      cursor: pointer;
+      box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    }
+    .card:hover{
+      cursor: pointer;
+      transform: translateY(-20px);
+      box-shadow: 0px 8px 15px rgb(255, 255, 255);
+    }
+    .card2:hover{
+      cursor: pointer;
+      transform: translateY(-20px);
+      box-shadow: 0px 8px 15px rgb(255, 255, 255);
+    }
+    .card3:hover{
+      cursor: pointer;
+      transform: translateY(-20px);
+      box-shadow: 0px 8px 15px rgb(255, 255, 255);
+    }
+    
+    
+    
+    /* Product segment */
+    
+    
+    .cards {
+      width: 20%;
+      height: 45vh;
+      display: inline-block;
+      box-shadow: 2px 2px 10px black;
+      margin: 40px;
+      transition: 0.3s;
+      padding: 10px;
+      border-radius: 10px;
+      background: linear-gradient(to right bottom, #121316, #212428);
+    
+    
+    }
+    
+    .cards:hover {
+      background-color: #16181c;
+      transform: translateY(-20px);
+      box-shadow: 0px 8px 15px rgba(119, 0, 255, 0.5);
+      border-radius: 10px;
+      background: linear-gradient(to right bottom, #212428, #16181c);
+    
+    
+    }
+    .geeks {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      margin: 0 auto;
+      border-radius: 10px;
+     
+    }
+    
+    
+    .geeks img {
+      border-radius: 10px;
+      width: 100%;
+      transition: 0.5s all ease-in-out;
+    }
+    
+    
+    .geeks:hover img {
+      transform: scale(1.3);
+    
+    }
+    
+    
+    
+    
+    .title {
+      margin-top: -200px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    
+    /* Fade in Animation */
+    
+    /* .sports{
+    opacity: 0;
+    }
+    
+    .RoadSter{
+      opacity: 0;
+      }
+    .Adventure{
+        opacity: 0;
+        }
+    
+    .Heritage{
+          opacity: 0;
+          }
+    
+          .Tour{
+            opacity: 0;
+            }       */
+    
+    .sportsanime{
+      animation: fadeInleft 1.2s both;
+    }
+    @keyframes fadeInleft {
+      0%{
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      100%{
+        opacity: 100;
+        transform: translateX(0px);
+      }
+    }
+    
+    .RoadSteranime{
+      animation: fadeIntop 1.2s both;
+    }
+    @keyframes fadeIntop {
+      0%{
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      100%{
+        opacity: 100;
+        transform: translateY(0px);
+      }
+    }
+    .Touranime{
+      animation: fadeInright 1.2s both;
+    }
+    @keyframes fadeInright {
+      0%{
+        opacity: 0;
+        transform: translateX(50px);
+      }
+      100%{
+        opacity: 100;
+        transform: translateX(0px);
+      }
+    }
+    
+    .Heritageanime{
+      animation: fadeInleft 1.2s both;
+    }
+    @keyframes fadeInleft {
+      0%{
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      100%{
+        opacity: 100;
+        transform: translateX(0px);
+      }
+    }
+    .Adventureanime{
+      animation: fadeInbottom 1.2s both;
+    }
+    @keyframes fadeInbottom {
+      0%{
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100%{
+        opacity: 100;
+        transform: translateY(0px);
+      }
+    }
+    
+    
+    /* NAV */
+    /* The side navigation menu */
+    .sidenav {
+      height: 60vh;
+      width: 0; 
+      position: fixed; 
+      z-index: 10; 
+      top: 20px;
+      left: 10px;
+      /* background-image: linear-gradient( 150deg, rgb(0, 0, 0), rgb(44, 5, 23),rgb(0, 0, 0)); */
+      background-color: transparent;
+      overflow-x: hidden; 
+      padding-top: 60px; 
+      transition: 0.5s; 
+      border-radius: 30px;
+      box-shadow: 1px 4px 2px 3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px 2px rgba(255, 255, 255, 0.2) inset;
+    
+     
+    }
+    #facebook:hover{
+    transition: 0.5s;
+     transform: translateY(-8px);
+     box-shadow:20px rgb(255, 255, 255);
+    }
+    .nav {
+      list-style: none;
+      position: relative;
+      padding-right: 20vh;
+     margin-left: -20px;
+     z-index: 1;
+    }
+    .sidenav  li a {
+      text-decoration: none;
+      color: #C4cFDE;
+      display: flex;
+      align-items: center;
+      transition: 0.5s;
+    }
+    
+    
+    .sidenav li a i {
+      font-size: 22px;
+      margin-right: 20px;
+    }
+    
+    
+    .active1 {
+      background-color: aliceblue;
+      width: 70%;
+      height: 47px;
+      border-radius: 6px;
+      box-shadow: 0 5px 10px rgb(98, 223, 175);
+      left: 16%;
+      margin-top: 4%;
+      z-index: -1;
+      position: absolute;
+      display: none;
+      transition: top 0.5s;
+    }
+    
+    .sidenav li a:hover {
+      color: #000;
+      transition: 0.3s;
+    }
+    
+    .nav li:hover~.active1 {
+      display: block;
+    }
+    
+    .nav li:nth-child(1):hover~.active1 {
+      top: 1.0%;
+    }
+    
+    .nav li:nth-child(2):hover~.active1 {
+      top: 21.0%;
+    }
+    
+    .nav li:nth-child(3):hover~.active1 {
+      top: 42.0%;
+    }
+    
+    .nav li:nth-child(4):hover~.active1 {
+      top: 64.0%;
+    }
+    .nav li:nth-child(5):hover~.active1 {
+      top: 84.0%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* The navigation menu links */
+    .sidenav a {
+      padding-left:  32px;
+      text-decoration: none;
+      font-size: 25px;
+      font-family: Gotham;
+      color: #818181;
+      display: block;
+      transition: 0.3s
+    }
+    
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover, .offcanvas a:focus{
+      color: #f1f1f1;
+       
+    }
+    
+    
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+      transition: margin-left .5s;
+      padding: 20px;
+    }
+    
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
